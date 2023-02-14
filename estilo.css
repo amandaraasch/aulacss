@@ -1,0 +1,59 @@
+.principal
+{
+    position: relative;
+    width:500px ;
+    height: 250px;
+    background-color: silver;
+    border-style: solid;
+    border-width: 5px; /*largura*/
+    border-color: red;
+    border-radius: 20px; /*arredonda a borda*/
+    display: flex;
+    flex-direction: row; /* row= linha e colum= coluna*/
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+
+
+
+
+}
+.interna
+{
+    width:100px ;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50px; /*arredonda a borda*/
+   
+
+
+}
+
+.menu:hover
+{
+    background-color: azure;
+
+
+}
+.menu
+{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color:white;
+    position: absolute;
+    left: 175px;
+    top:0px;
+   
+}
+.centralizado
+{
+     display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+
+
+}
